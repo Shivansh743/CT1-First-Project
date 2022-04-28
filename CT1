@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
   char category;
   int tempChoice;
@@ -7,12 +6,10 @@ int main() {
   int userinputC; // User inputted Celsius;
   int fahrenheitToCelcius; // variable that stores the converted F->C;
   int celciusToFahrenheit; // variable that stores the converted C->F;
-  
   printf("Welcome to Unit Converter! \n");
   printf("Temperature(T) \n");
   printf("Please enter the letter you want to convert.\n");
   scanf("%c",&category);
-  
   if(category == 'T'){
       printf("Welcome to Temperature Converter! \n");
       printf("Enter 1 for Fahrenheit to Celsius. \n");
