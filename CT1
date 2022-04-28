@@ -9,14 +9,12 @@ int main() {
   int celciusToFahrenheit; // variable that stores the converted C->F;
   
   printf("Welcome to Unit Converter! \n");
-  printf("Here is a list of conversation to choose from: \n");
   printf("Temperature(T) \n");
   printf("Please enter the letter you want to convert.\n");
   scanf("%c",&category);
   
   if(category == 'T'){
       printf("Welcome to Temperature Converter! \n");
-      printf("Here is a list of conversations to choose from: \n");
       printf("Enter 1 for Fahrenheit to Celsius. \n");
       printf("Enter 2 for Celsius to Fahrenheit. \n");
       scanf("%d",&tempChoice);
